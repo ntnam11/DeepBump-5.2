@@ -41,7 +41,7 @@ def get_dependencies_path():
 # Python dependencies management helpers from :
 # https://github.com/robertguetzkow/blender-python-examples/tree/master/add_ons/install_dependencies
 Dependency = namedtuple('Dependency', ['module', 'package', 'name'])
-dependencies = (Dependency(module='onnxruntime', package='onnxruntime==1.15.1', name='ort'),
+dependencies = (Dependency(module='onnxruntime', package='onnxruntime', name='ort'),
                 Dependency(module='numpy', package=None, name='np'))
 dependencies_installed = False
 
